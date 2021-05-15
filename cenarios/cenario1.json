@@ -2,7 +2,7 @@
     "mqtt": {
         "username": "rasp",
         "password": "rpi2021",
-        "host": "10.0.0.1",
+        "host": "localhost",
         "port": 1883,
         "topic": "prac_cauc"
     },
