@@ -1,0 +1,55 @@
+{
+    "mqtt": {
+        "username": "rasp",
+        "password": "rpi2021",
+        "host": "10.0.0.1",
+        "port": 1883,
+        "topic": "prac_cumb"
+    },
+    "misc": {
+        "interval_ms": 1000,
+        "verbose": true
+    },
+    "sensors": {
+        "sensor_1": {
+            "lat": 10,
+            "lng": 10,
+            "unit": "C",
+            "type": "temperature",
+            "range": [0, 45],
+            "description": "Main Entrance"
+        },
+        "sensor_2": {
+            "lat": 90,
+            "lng": 90,
+            "unit": "C",
+            "type": "temperature",
+            "range": [0, 45],
+            "description": "Kitchen"
+        },
+        "sensor_3": {
+            "lat": 90,
+            "lng": 10,
+            "unit": "C",
+            "type": "temperature",
+            "range": [0, 45],
+            "description": "Deposit"
+        },
+        "sensor_4": {
+            "lat": 10,
+            "lng": 90,
+            "unit": "C",
+            "type": "temperature",
+            "range": [0, 45],
+            "description": "Assemlby Floor"
+        },
+        "sensor_5": {
+            "lat": 50,
+            "lng": 50,
+            "unit": "C",
+            "type": "temperature",
+            "range": [0, 45],
+            "description": "Offices"
+        }
+    }
+}
