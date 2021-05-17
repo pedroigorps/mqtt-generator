@@ -8,7 +8,7 @@
     },
     "misc": {
         "interval_ms": 1000,
-        "verbose": true
+        "verbose": false
     },
     "sensors": {
         "sensor_1": {
