@@ -38,8 +38,8 @@ def generate(host, port, username, password, topic, sensors, interval_ms, verbos
 
         payload = json.dumps(data)
 
-        if verbose:
-            print("%s: %s" % (topic, payload))
+#        if verbose:
+#            print("%s: %s" % (topic, payload))
 
         mqttc.publish(topic, payload)
         time.sleep(interval_secs)
